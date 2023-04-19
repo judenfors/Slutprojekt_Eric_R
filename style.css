@@ -1,0 +1,34 @@
+.wrapper{
+    width:75%;
+    height:50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3em;
+    grid-template-rows: 200px 150px 150px;
+    grid-gap: 25px;
+    line-height:0.80;
+
+}
+
+h1 {
+    text-align:center;  /*Det här kommer centrera all text i den första h kolumnen*/
+    font-family:"Brush Script MT", Cursive;
+    text-shadow:3px 3px;
+    font-size:50px
+
+}
+
+h2 {
+    text-align:center;
+    font-size:50px;
+    color:black;   /*Denna koden ändrar storleken och färgen på den andra h sektionen.*/
+
+}
+
+nav>ul {   /*Den här koden visar att nav är som ett större eller mäktigare element än ul, som en förälder ungefär*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+    margin: 50px;
+    height: 100%;
+}
