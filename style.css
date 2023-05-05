@@ -43,6 +43,7 @@ h2 {
 }
 
 h3{
+    margin:0.7em;
     text-align:center;
     font-size:50px;
     color:black;   /*Denna koden ändrar storleken och färgen på den andra h kolumnen.*/
@@ -51,6 +52,7 @@ h3{
 }
 
 h4{
+    margin:0.7em;
     text-align:center;
     font-size:50px;
     color:black;   /*Denna koden ändrar storleken och färgen på den andra h kolumnen.*/
@@ -60,6 +62,7 @@ h4{
 }
 
 h5{
+    margin:0.7em;
     text-align:center;
     font-size:50px;
     color:black;   
@@ -67,6 +70,7 @@ h5{
 }
 
 h6{
+    margin:0.7em;
     text-align:center;
     font-size:50px;
     color:black;   
@@ -94,6 +98,21 @@ li a:hover{
     background-color:blueviolet;
     color:white;
     font-size:xx-large;
+}
+
+.lokalnav a{
+    text-align:left;
+    float:center;
+    padding: 5vw;
+    display:block;
+    font-size:3vh;
+    padding-top:13vh;
+}
+
+.lokalnav a:hover{
+    background-color:blueviolet;
+    color:white;
+    font-size:3.5vh;
 }
 
 img{
