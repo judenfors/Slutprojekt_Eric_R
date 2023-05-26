@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Äldsta sidan</title>
+    <title>Extra sidan</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -30,18 +30,17 @@
 
     <main>
         <nav class="lokalnav">
-            <ul>             
+            <ul>              
                 <li> <a href="snabba.html">Snabba bilar</a></li>
                 <li> <a href="oldest.html">Äldsta bilarna</a></li>
                 <li> <a href="extra.html">Extra bilar</a></li>
             </ul>
-
         </nav>
 
-        <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/MSNBC/Components/Photo/_new/110927-oldest_car.jpg" alt="gammal bil"/>
-
-        
-        
+        <form action="/formsvar.html" method="post">
+            <label for="bil">Vilken bil anser du borde varit med på webbsidan?</label><br>
+            <input type="text" id="bil" name="bil"><br>
+            <input type="submit" value="Submit">
     </main>
 
     <footer>
