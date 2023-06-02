@@ -2,7 +2,7 @@ body{
     margin:0;
 }
 
-.wrapper{
+.wrapper{       /*Wrapper elementet ändrar stilen och funktionerna för de områden som är inskrivna i grid-template-areas*/
     display: grid;
     width:auto;
     height: auto;
@@ -46,7 +46,7 @@ h3{
     margin:0.7em;
     text-align:center;
     font-size:50px;
-    color:black;   /*Denna koden ändrar storleken och färgen på den andra h kolumnen.*/
+    color:black;   /*Denna koden ändrar färgen på den andra h kolumnen.*/
     padding: 0%;
     grid-column: 1/span 2;
 }
@@ -55,7 +55,7 @@ h4{
     margin:0.7em;
     text-align:center;
     font-size:50px;
-    color:black;   /*Denna koden ändrar storleken och färgen på den andra h kolumnen.*/
+    color:black;   
     padding: 0%;
     grid-column: 1/span 2;
 
@@ -100,7 +100,7 @@ li a:hover{
     font-size:xx-large;
 }
 
-.lokalnav a{
+.lokalnav a{     /*Denna linjen anger att det är min lokalmeny som ska ändras av koden inom blocket. */
     
     text-align:left;
     padding:5vw;
@@ -115,7 +115,7 @@ li a:hover{
     font-size:3vh;
 }
 
-img{
+img{      /*Detta ändrar egenskaperna för mina bilder*/
     max-width: 100%;
     height: auto;
 }
@@ -134,7 +134,7 @@ main{
     grid-template-columns: 1fr 1fr;
 }
 
-section{
+section{     /*Ändrar egenskaper för min section*/
     padding-left: 2vw;
 }
 
@@ -154,7 +154,7 @@ caption{
     font-size:xx-large;
 }
 
-tr:nth-child(odd){
+tr:nth-child(odd){    /*Detta gör zebra stripes på min tabell*/
     background-color: #d8d8d8;
 }
 
@@ -164,7 +164,7 @@ table, th, td{
 
 }
 
-iframe{
+iframe{    /*Koden i det här blocket ändrar egenskaperna för min iframe(youtube video)*/
     width:500px;
     height:250px;
     
