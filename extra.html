@@ -23,19 +23,32 @@
                 <li> <a href="raggar.html">Raggarbilar</a></li>
                 <li> <a href="fula.html">Fula bilar</a></li>
                 <li> <a href="special.html">Speciella bilar</a></li>
-    
             </ul>
         </nav>
     </header>
 
     <main>
-       
-
         <form action="/formsvar.html" method="post">
             <label for="bil">Vilken bil anser du borde varit med på webbsidan?</label><br>
             <input type="text" id="bil" name="bil"><br>
+            
+            <label for="beskrivning">Beskrivning:</label><br>
+            <textarea id="beskrivning" name="beskrivning"></textarea><br>
+            
+            <label for="password">Lösenord:</label><br>
+            <input type="password" id="password" name="password"><br>
+            
+            <label for="radio1">Gillade du webbsidan?</label>
+            <input type="radio" id="radio1" name="radio" value="option1"><br>
+            
+            <label for="radio2">Hatade du webbsidan?</label>
+            <input type="radio" id="radio2" name="radio" value="option2"><br>
+
+            <label for="checkbox">Har du svarat på alla frågor?</label>
+            <input type="checkbox" id="checkbox" name="checkbox"><br>
+            
             <input type="submit" value="Submit">
-        </form>
+          </form>
             <nav class="lokalnav">
                 <ul>              
                     <li> <a href="snabba.html">Snabba bilar</a></li>
